@@ -1,0 +1,103 @@
+Summary
+The property that is of primary significance for a neural network is the ability of the
+network to learn from its environment and to improve its performance through learning.
+
+Learning is a process by which the free parameters of a neural network are adapted through
+a process of stimulation by the environment in which the network is embedded. The type of
+learning is determined by the manner in which the parameter changes take place.
+
+A prescribed set of well-defined rules for the solution of a learning problem is
+called a learning algorithm.
+
+Basic Learning rules:
+
+a) Error correction learning
+b) Memory based learning
+c) Hebbian learning
+d) Competitive learning
+e) Boltzmann learning
+
+
+Error correction learning:
+
+The error signal e_k(n) actuates a control mechanism, the purpose of which is to apply a
+sequence of corrective adjustments to the synaptic weights of neuron k.
+
+The corrective adjustments are designed to make the output signal Y_k(n) come closer to the desired
+response d_k(n) in a step-by-step manner.
+
+
+Memory-based learning:
+
+Store or memorize a set of patterns. We try to memorize the association between the input vector and desired output.
+
+For a new input x_test, find out from memory which of input (x_i) is closest to x_test.
+
+Distance measure, euclidean distance between x_test and each input x_i
+
+A variant of the nearest neighbor classifier is the k-nearest neighbor classifier,
+which proceeds as follows:
+
+a) Identify the k classified patterns that lie nearest to the test vector X_test for some
+integer k.
+
+b) Assign x_test to the class (hypothesis) that is most frequently represented in the k
+nearest neighbors to x_test (i.e., use a majority vote to make the classification).
+
+Hebbian Learning:
+
+If two neurons on either side of a synapse (connection) are activated simultaneously (i.e., synchronously).
+then the strength of that synapse is selectively increased.
+
+sIf two neurons on either side of a synapse are activated asynchronously, then that
+synapse is selectively weakened or eliminated.
+
+Key properties that characterize a Hebbian synapse:
+
+a. Time-dependent mechanism.
+b. Local mechanism
+c. Strongly interactive mechanism.
+d. Conjunctional or correlational mechanism
+
+Classifiaction of synaptic modification
+a. Hebbian
+b. Anti-Hebbian
+c. Non-Hebbian
+
+Mathematical Models of Hebbian Modifications
+
+a. Hebb's hypothesis
+b. Covariance hypothesis
+
+Competitive Learning:
+
+Three basic elements to a competitive learning rule:
+
+a) A set of neurons that are all the same except for some randomly distributed
+synaptic weights, and which therefore respond differently to a given set of input
+patterns.
+b) A limit imposed on the "strength" of each neuron.
+c) A mechanism that permits the neurons to compete for the right to respond to a
+given subset of inputs, such that only one output neuron, or only one neuron per
+group, is active (i.e., "on") at a time. The neuron that wins the competition is
+called a winner-takes-all neuron.
+
+
+Boltzmann Learning:
+
+In a Boltzmann machine the neurons constitute a recurrent structure, and they
+operate in a binary manner since, for example, they are either in an "on" state denoted
+by +1 or in an "off" state denoted by -1
+
+The neurons of a Boltzmann machine partition into two functional groups: visible
+and hidden.
+
+The visible neurons provide an interface between the network and the
+environment in which it operates, whereas the hidden neurons always operate freely.
+
+There are two modes of operation to be considered:
+
+a) Clamped condition, in which the visible neurons are all clamped onto specific
+states determined by the environment.
+b) Free-running condition, in which all the neurons (visible and hidden) are allowed
+to operate freely.
