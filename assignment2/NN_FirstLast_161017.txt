@@ -1,0 +1,6 @@
+Q: How do neurons adjust the synapse by Hebbian learning? 
+A: The strength of a synapse is increased when two neurons on both sides of the synapse are activated simultaneously.
+Q: What is the difference between reinforcement learning and unsupervised learning?
+A: In reinforcement learning, there is a critic that provides heuristic reinforcement or reward to the network for its performance; in unsupervised learning, the network only gets input signals.
+Q: What is continuous learning?
+A: It is a process in which a network has to adjust its parameters to deal with a dynamic environment. 
